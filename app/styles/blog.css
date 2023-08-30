@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container{
+    box-shadow: 0 2px 20px rgba(129, 129, 129, 0.57);
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10000;
+    background-color: white;
+  }
+nav{
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+  }
+  .nav_link ul{
+    display: flex;
+    gap: 1.5em;
+  }
+  .profile a img{
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 444px;
+    padding: 2px;
+    margin-right: 4px;
+  }
+  .profile a{
+    display: flex;
+    height: 24px;
+    align-items: center;
+  }
+  .profile a .login{
+    color: #222222;
+  }
+  a{
+    color: #222222;
+  }
+  .logo h1{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke-color: blueviolet;
+    background: -webkit-linear-gradient(#2346c9, #7c12bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero{
+    height: 30vh;
+    margin-top: 8vh;
+    background-color: #b3d4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero input{
+    width: 65vw;
+    height: 44px;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 12px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(64, 118, 138, 0.55);
+    color: #888888;
+  }
+  
+  .register_pane{
+    height: 15vh;
+    background-color: #525252;
+    display: flex;
+    align-items: center;
+  }
+  .reg_content{
+    display: flex;
+    align-items: center;
+    width: 65vw;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .reg_content div button{
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    background: transparent;
+    border: 3px solid white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .reg_head{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+  }
+  .reg_content div p{
+    color: white;
+  }
+
+
+
+.card{
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 25vw;
+    /* border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.074); */
+}
+.imagee{
+    height: 30vh;
+    width: inherit;
+    /* background-color: aliceblue; */
+    background: url("../../public/img/aachal-Gu23zyqtQ8U-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 200;
+}
+.card a{
+    margin-top: 8px;
+    font-size: 12px;
+    font-size: 300;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+.card a:hover{
+    padding-top: 1px;
+    text-decoration: underline;
+}
+.title{
+    margin-top: 20px;
+}
+.blog{
+    width: 65vw;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_banner{
+    background-color: #343434;
+  }
+  .footer_banner_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 65vw;
+    margin: 0 auto;
+    color: white;
+  }
+  .footer_banner_content div h2{
+    margin: 0;
+    font-size: 32px;
+  }
+  .footer_banner_content button{
+    width: 300px;
+    height: 56px;
+  }
+  
+  .main_footer{
+    /* height: 52vh; */
+    color: white;
+    /*width: 65vw;*/
+    /*margin: 0 auto;*/
+    background-color: #171717;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .quick_links{
+    display: flex;
+    /*justify-content: space-between;  */
+    gap:15em;
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .newsletter{
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .news_button{
+    width: 220px;
+    height: 55px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+  }
+  hr{
+    /*border: 1px solid white;*/
+    background: transparent;
+    width: 95vw;
+    border-top: 2px solid white;
+    margin: 32px auto;
+  }
+  .copyright{
+    display: flex;
+    width: 65vw;
+    margin: 0 auto;
+    /*gap: 2px;*/
+    justify-content: space-between;
+    align-items: center;
+    height: 3vh;
+  }
+  .socials{
+    display: flex;
+    gap:1em;
+  }

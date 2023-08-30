@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins","Rubik", sans-serif;
+}
+
+.container{
+    box-shadow: 0 2px 20px rgba(129, 129, 129, 0.57);
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10000;
+    background-color: white;
+  }
+nav{
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+  }
+  .nav_link ul{
+    display: flex;
+    gap: 1.5em;
+  }
+  .profile a img{
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 444px;
+    padding: 2px;
+    margin-right: 4px;
+  }
+  .profile a .login{
+    color: #222222;
+  }
+  .profile a{
+    display: flex;
+    height: 24px;
+    align-items: center;
+  }
+  a{
+    color: #222222;
+  }
+  .logo h1{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke-color: blueviolet;
+    background: -webkit-linear-gradient(#2346c9, #7c12bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero{
+    height: 30vh;
+    margin-top: 8vh;
+    background-color: #b3d4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero input{
+    width: 65vw;
+    height: 44px;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 12px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(64, 118, 138, 0.55);
+    color: #888888;
+  }
+  
+  .register_pane{
+    height: 15vh;
+    background-color: #525252;
+    display: flex;
+    align-items: center;
+  }
+  .reg_content{
+    display: flex;
+    align-items: center;
+    width: 65vw;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .reg_content div button{
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    background: transparent;
+    border: 3px solid white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .reg_head{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+  }
+  .reg_content div p{
+    color: white;
+  }
+
+  
+
+.box{
+    /* background-color: blue; */
+    height: 65vh;
+    width: 65vw;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    background: url("../../public/img/aachal-Gu23zyqtQ8U-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 30px rgba(40, 40, 40, 0.129);
+}
+.circle{
+    position: absolute;
+    top:70%;
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.brief{
+    width: 65vw;
+    margin: 5em auto;
+}
+.top_desc{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+small{
+    font-weight: 900;
+}
+.description{
+    font-size: 1.5em;
+}
+.hr1{
+    width: 65vw;
+    border-top: 2px solid black;
+    margin-bottom: 2em auto;
+}
+.hr{
+    width: 65vw;
+    margin-top: 2em auto;
+    border-top: 2px solid black;
+}
+
+
+.footer_banner{
+    background-color: #343434;
+  }
+  .footer_banner_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 65vw;
+    margin: 0 auto;
+    color: white;
+  }
+  .footer_banner_content div h2{
+    margin: 0;
+    font-size: 32px;
+  }
+  .footer_banner_content button{
+    width: 300px;
+    height: 56px;
+  }
+  
+  .main_footer{
+    /* height: 52vh; */
+    color: white;
+    /*width: 65vw;*/
+    /*margin: 0 auto;*/
+    background-color: #171717;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .quick_links{
+    display: flex;
+    /*justify-content: space-between;  */
+    gap:15em;
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .newsletter{
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .news_button{
+    width: 220px;
+    height: 55px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+  }
+  hr{
+    /*border: 1px solid white;*/
+    background: transparent;
+    width: 95vw;
+    border-top: 2px solid white;
+    margin: 32px auto;
+  }
+  .copyright{
+    display: flex;
+    width: 65vw;
+    margin: 0 auto;
+    /*gap: 2px;*/
+    justify-content: space-between;
+    align-items: center;
+    height: 3vh;
+  }
+  .socials{
+    display: flex;
+    gap:1em;
+  }
